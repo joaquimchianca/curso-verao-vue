@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    width: 100%;
+    background-color: darkblue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+header hr {
+    color: white;
+}
+
+header div {
+    padding-left: 1rem;
+    flex-grow: 4;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+header a:hover {
+    color: coral;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+
+.secao {
+    padding: 2.5rem;
+}
+
+.secao h2 {
+    padding-left: 2rem;
+}
+
+.texto {
+    border: 1px white solid;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.texto p {
+    padding: 8px;
+}
+
+.texto ul {
+    margin-left: 4rem;
+}
+
+.imagens {
+    display: flex;
+}
+
+.imagens img {
+    width: 50%;
+    padding: 5px;
+}
+
+form {
+    background-color: darkblue;
+    border: 1px white solid;
+    border-radius: 8px;
+}
+
+form legend {
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.notas {
+    padding: 1.5rem;
+}
+
+.notas div {
+    margin-bottom: 12px;
+}
+
+.notas label {
+    background-color: cornflowerblue;
+    margin-right: 12px;
+    padding: 12px;
+}
+
+.notas input {
+    border-radius: 8px;
+    padding: 12px;
+}
+
+form button {
+    background-color: aliceblue;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 1.5rem;
+    border: 1px solid black;
+}
+
+.resultado {
+    display: flex;
+    padding-bottom: 1.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.calculadora {
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.esquerda {
+    width: 50%;
+}
+
+.direita {
+    width: 50%;
+    margin-top: 28px;
+}
